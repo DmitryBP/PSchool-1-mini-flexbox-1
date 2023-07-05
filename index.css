@@ -1,13 +1,77 @@
 * {
-	box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 :root {
-	--primary: #0018ED;
-	--mainFont: #2D2E3A;
+  --primary: #0018ed;
+  --mainFont: #2d2e3a;
 }
 
 body {
-	font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
+	font-size: 20px;
 }
 
+.menuWrapper {
+  width: 1305px;
+  padding: 25px;
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: space-between;
+	
+}
+.left {
+	display: flex;
+	align-items: center;
+	gap:48px
+	
+}
+.logo {
+	height: 44px;
+}
+.btn {
+	width: 186px;
+	padding: 16px 0;
+	padding-left: 32px;
+	border-radius: 50px;
+	border: 2px solid  rgb(2, 70, 255);
+	background-color: #fff;
+	background-image: url(./icons/menu.svg);
+	background-repeat: no-repeat;
+	background-position: 32px center;
+	font-size: 20px;
+	align-self: stretch;
+}
+.right {
+	/* border: 1px solid red; */
+  display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 32px;
+}
+.menu {
+	padding: 0;
+  list-style: none;
+  display: flex;
+  gap: 24px;
+}
+.sarch {
+}
+.login {
+
+}
+.icon {
+	width: 24px;
+	height: 24px;
+}
+.iconLogin{
+	background-image: url(./icons/user.svg);
+}
+.iconSearch{
+	background-image: url(./icons/search.svg);
+}
+
+.iconwrp {
+	display: flex;
+	gap: 4px;
+}
