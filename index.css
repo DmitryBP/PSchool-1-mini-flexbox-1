@@ -11,20 +11,26 @@ body {
 .container {
   border: 10px solid #6c38cc;
   display: flex;
-  height: 100vh;
-  justify-content: space-around;
-  flex-flow: nowrap;
-  align-items: start;
+	flex-wrap: wrap;
+	height: 100vh;
+	align-items: center;
+	justify-content: center;
 }
 
 .item {
-  width: calc(100% / 3);
   background: #232228;
   border: 1px solid #6c38cc;
   text-align: center;
   padding: 10px;
 }
 
-.item3 {
-  align-self: center;
+
+.item1{
+	flex:1
+}
+.item2{
+	flex: 2
+}
+.item3{
+	flex: 2
 }
