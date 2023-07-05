@@ -11,7 +11,9 @@ body {
 .container {
 	border: 10px solid #6c38cc;
 	display:flex;
-	justify-content: space-between;
+	height: 100vh;
+	justify-content: space-around;
+	align-items: center;
 
 }
 
