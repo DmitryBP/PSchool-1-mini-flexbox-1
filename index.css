@@ -11,8 +11,7 @@ body {
 .container {
 	border: 10px solid #6c38cc;
 	display:flex;
-	flex-direction: row;
-	flex-wrap: wrap-reverse;
+	flex-flow: wrap row;
 
 }
 
